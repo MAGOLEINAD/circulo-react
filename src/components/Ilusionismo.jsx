@@ -9,9 +9,9 @@ const Ilusionismo = () => {
             </div>
             <div>
             <picture className="  ">
-                 <source srcSet="src/img/header1.jpg" type="image/avif" />
-                 <source srcSet="src/img/header1.jpg" type="image/webp" />
-                 <img loading="lazy" src="src/img/header1.jpg" alt="Curso de Magia"  />
+                 <source srcSet="./img/header1.jpg" type="image/avif" />
+                 <source srcSet="./img/header1.jpg" type="image/webp" />
+                 <img loading="lazy" src="./img/header1.jpg" alt="Curso de Magia"  />
               </picture>
               </div>
             
