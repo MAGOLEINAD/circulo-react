@@ -20,9 +20,8 @@ export const Galeria = () => {
             </picture>
             
             <div class="slide-content">
-              <h2>Guardians Of The Galaxy</h2>
-              <p>A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge
-                the universe.</p>
+              <h2>Curso de Magia</h2>
+              <p>Nunca repitas un juego en la misma sesión.</p>
             </div>
           </div>
 
@@ -35,11 +34,8 @@ export const Galeria = () => {
                 <img loading="lazy" src="./images/escuelamagia2.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
-              <h2>Justice League</h2>
-              <p>Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with
-                Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching
-                threat
-                of catastrophic proportions.</p>
+              <h2>Levitación de Alumno</h2>
+              <p>Y así mantengo, mi capacidad de asombro...</p>
             </div>
           </div>
         </div>
@@ -81,10 +77,8 @@ export const Galeria = () => {
                 <img loading="lazy" src="./images/escuelamagia5.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
-              <h2>Thor: Ragnarok</h2>
-              <p>Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök,
-                the
-                destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+              <h2>Entrega de Diplomas</h2>
+              <p>Un gran profesor no debe solo enseñar, sino motivar.</p>
             </div>
           </div>
         </div>
