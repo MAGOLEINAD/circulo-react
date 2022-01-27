@@ -16,7 +16,7 @@ export const Galeria = () => {
           <picture>
                 <source srcset="./images/escuelamagia1.jpg" type="image/avif"/>
                 <source srcset="./images/escuelamagia1.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia1.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <img loading="lazy" src="./images/escuelamagia1.jpg"  alt="clases de magia"/>
             </picture>
             
             <div class="slide-content">
@@ -47,9 +47,8 @@ export const Galeria = () => {
                 <img loading="lazy" src="./images/escuelamagia3.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
-              <h2>Spider-Man: Far from Home</h2>
-              <p>Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a
-                world that has changed forever.</p>
+              <h2>Magia de cerca</h2>
+              <p>En Close Up las manos trabajan a centímetros de distancia.</p>
             </div>
           </div>
         </div>
@@ -61,11 +60,8 @@ export const Galeria = () => {
                 <img loading="lazy" src="./images/escuelamagia4.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
-              <h2>The Suicide Squad</h2>
-              <p>Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve
-                prison
-                join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused
-                island of Corto Maltese.</p>
+              <h2>Sombras</h2>
+              <p>Clase de Sombras Chinas y Bola Zombie</p>
             </div>
           </div>
         </div>
@@ -77,11 +73,182 @@ export const Galeria = () => {
                 <img loading="lazy" src="./images/escuelamagia5.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
+              <h2>Magia y Ritmo</h2>
+              <p>Aprendiendo a manejar el ritmo en la magia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia6.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia6.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia6.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
               <h2>Entrega de Diplomas</h2>
               <p>Un gran profesor no debe solo enseñar, sino motivar.</p>
             </div>
           </div>
         </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia7.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia7.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia7.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Divirtiéndonos en Clase</h2>
+              <p>Tu éxito como Mago depende de tu Personalidad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia8.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia8.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia5.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Conferencia de Roberto</h2>
+              <p>Ensayo para conseguir que una ilusión parezca realidad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia9.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia9.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia9.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Evento de Cierre de Año</h2>
+              <p>"Estaba tan cerca de mí, como yo de ti y no vi como lo hizo"</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia10.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia10.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia10.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Gala de Fin de Año.</h2>
+              <p>Gala de Alumnos del Círculo Mágico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia11.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia11.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia11.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Manipulación</h2>
+              <p>Practica día a día. Practica delante del espejo, te verás a ti mismo como te ve el público.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia12.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia12.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia12.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2 className="uppercase">Minimagos</h2>
+              <p>Alumno Lucio, realizando un efecto de riesgo en vivo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia13.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia13.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia13.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Jugando con Fuego</h2>
+              <p>Alumnos soprendiéndose entre ellos antes de la clase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia14.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia14.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia14.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Atención Personalizada</h2>
+              <p>Atendiendo los pedidos mágicos en la tienda</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia15.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia15.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia15.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Mágiko del Castillo</h2>
+              <p>Magia y Humor en Círculo Mágico...</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia16.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia16.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia16.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>LEINAD</h2>
+              <p>Bienvenido al Círculo Mágico, no vas a querer salir...  </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia17.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia176.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia17.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Entrega de Diplomas</h2>
+              <p>Un gran profesor no debe solo enseñar, sino motivar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="carousel-slider-animate-opacity">
+          <picture>
+                <source srcset="./images/escuelamagia18.jpg" type="image/avif"/>
+                <source srcset="./images/escuelamagia18.jpg" type="image/webp"/>
+                <img loading="lazy" src="./images/escuelamagia18.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+            </picture>
+            <div class="slide-content">
+              <h2>Entrega de Diplomas</h2>
+              <p>Un gran profesor no debe solo enseñar, sino motivar.</p>
+            </div>
+          </div>
+        </div>
+       
+        
       </div>
     </div>
     <div class="swiper-button-prev"></div>

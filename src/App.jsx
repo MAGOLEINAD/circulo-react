@@ -5,6 +5,8 @@ import Ilusionismo from "./components/Ilusionismo"
 import Google from './components/Google'
 import Galeria from './components/Galeria'
 import MenuPrincipal from './components/MenuPrincipal'
+import Footer from './components/Footer'
+
 
 
 
@@ -22,6 +24,8 @@ function App() {
     <TresCajasGrid />
     <Google />
     <Galeria />
+    <Footer />
+    
    
     </>
   )
