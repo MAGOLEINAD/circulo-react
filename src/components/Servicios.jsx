@@ -1,3 +1,5 @@
+
+
 const Servicios = () => {
     return (
         <div className="container text-center grid lg:grid-cols-3 lg:divide-x-2  ">
@@ -19,7 +21,7 @@ const Servicios = () => {
                 <div  className="order-3  ">
                 <i className="fas fa-door-closed mb-5 text-red-800 mlg:mt-8 text-3xl"></i>
                 <h2 className="text-white uppercase text-3xl mb-4">Curso de Magia </h2> 
-                <button className="bg-red-800 uppercase mb-1 rounded text-center px-16 py-3 font-medium tracking-widest text-white">Mas Informacion</button><br />
+                <button className="bg-red-800 uppercase mb-1 rounded text-center px-16 py-3 font-medium  tracking-widest text-white">Mas Informacion</button><br />
                 <p className="text-gray-500 mb-1 font-medium text-sm divide-y-2 ">Vacantes Limitadas</p> 
                 <button className="bg-neutral-800 mr-1 px-10 uppercase rounded text-center py-3 font-medium tracking-wider  text-white">Fotos</button>
                 <button className=" bg-transparent border ml-1 px-10 border-zinc-600 uppercase rounded text-center py-3 font-medium tracking-wider text-white">Reservar</button>

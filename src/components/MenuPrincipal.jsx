@@ -40,7 +40,7 @@ export default function MenuPrincipal() {
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="../public/images/logocircu.avif"
+                    src="../images/logocircu.avif"
                     alt="circulo magico"
                   />
                 </div>
