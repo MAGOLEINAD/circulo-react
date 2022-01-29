@@ -16,7 +16,7 @@
 @media screen and (max-width:1279px) { 
     .imagenback{ 
         background-size: 50% auto;
-        background-image: url(./src/img/header1-m.png);
+        background-image: url(./src/img/header1-m.avif), url(./src/img/header1-m.webp), url(./src/img/header1-m.png);
         background-position: auto  ;
         
     }
@@ -26,7 +26,7 @@
 @media screen and (max-width:1023px) { 
     .imagenback{ 
         background-size: 60% auto;
-        background-image: url(./src/img/header1-m.png);
+        background-image: url(./src/img/header1-m.avif), url(./src/img/header1-m.webp), url(./src/img/header1-m.png);
     }}
 
 @media screen and (max-width: 1024px) {

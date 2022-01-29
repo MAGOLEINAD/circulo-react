@@ -3,7 +3,19 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()]
+  plugins: [react()],
+  build: {
+    outDir: "./circulomagico",
+    sourcemap:true,
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        entryFileNames:"[name].js",
+        chunkFileNames:"[name].js",
+        assetFileNames:"[name].ext",
+      }
+    }
+  }
 })
 
 

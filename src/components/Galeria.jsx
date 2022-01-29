@@ -1,9 +1,11 @@
+
+
 export const Galeria = () => {
   return (
 
       <>
           <h3 className="text-white text-center text-3xl  uppercase my-10">
-              Fotos - escuela y tienda
+              escuela y tienda
           </h3>
           <div id="app">
   {/* <!-- Carousel slider --> */}
@@ -14,9 +16,9 @@ export const Galeria = () => {
           {/* <!-- elements with  "carousel-slider-animate-opacity" class will have animated opacity --> */}
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia1.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia1.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia1.jpg"  alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia1.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia1.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia1.jpg"  alt="clases de magia"/>
             </picture>
             
             <div class="slide-content">
@@ -29,9 +31,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia2.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia2.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia2.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia2.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia2.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia2.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Levitación de Alumno</h2>
@@ -42,9 +44,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia3.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia3.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia3.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia3.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia3.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia3.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Magia de cerca</h2>
@@ -55,9 +57,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia4.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia4.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia4.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia4.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia4.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia4.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Sombras</h2>
@@ -68,9 +70,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia5.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia5.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia5.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia5.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia5.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia5.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Magia y Ritmo</h2>
@@ -81,9 +83,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia6.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia6.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia6.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia6.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia6.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia6.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Entrega de Diplomas</h2>
@@ -94,9 +96,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia7.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia7.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia7.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia7.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia7.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia7.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Divirtiéndonos en Clase</h2>
@@ -107,9 +109,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia8.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia8.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia5.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia8.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia8.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia5.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Conferencia de Roberto</h2>
@@ -120,9 +122,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia9.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia9.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia9.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia9.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia9.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia9.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Evento de Cierre de Año</h2>
@@ -133,9 +135,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia10.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia10.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia10.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia10.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia10.webp" type="image/webp"/>
+                <img loading="lazy" src="./img/escuelamagia10.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Gala de Fin de Año.</h2>
@@ -146,9 +148,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia11.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia11.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia11.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia11.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia11.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia11.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Manipulación</h2>
@@ -159,9 +161,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia12.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia12.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia12.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia12.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia12.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia12.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2 className="uppercase">Minimagos</h2>
@@ -172,9 +174,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia13.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia13.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia13.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia13.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia13.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia13.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Jugando con Fuego</h2>
@@ -185,9 +187,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia14.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia14.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia14.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia14.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia14.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia14.jpg" alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Atención Personalizada</h2>
@@ -198,9 +200,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia15.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia15.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia15.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia15.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia15.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia15.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Mágiko del Castillo</h2>
@@ -211,9 +213,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia16.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia16.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia16.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia16.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia16.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia16.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>LEINAD</h2>
@@ -224,9 +226,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia17.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia176.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia17.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia17.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia176.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia17.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Entrega de Diplomas</h2>
@@ -237,9 +239,9 @@ export const Galeria = () => {
         <div class="swiper-slide">
           <div class="carousel-slider-animate-opacity">
           <picture>
-                <source srcset="./images/escuelamagia18.jpg" type="image/avif"/>
-                <source srcset="./images/escuelamagia18.jpg" type="image/webp"/>
-                <img loading="lazy" src="./images/escuelamagia18.jpg" class="img-fluid d-md-block d-sm-none" alt="clases de magia"/>
+                <source srcset="./src/img/escuelamagia18.avif" type="image/avif"/>
+                <source srcset="./src/img/escuelamagia18.webp" type="image/webp"/>
+                <img loading="lazy" src="./src/img/escuelamagia18.jpg"  alt="clases de magia"/>
             </picture>
             <div class="slide-content">
               <h2>Entrega de Diplomas</h2>

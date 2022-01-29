@@ -35,12 +35,12 @@ export default function MenuPrincipal() {
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-10 w-auto"
-                    src="..//images/logocircu.avif"
+                    src="./src/img/logocircu.avif"
                     alt="circulo magico"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="../images/logocircu.avif"
+                    src="./src/img/logocircu.avif"
                     alt="circulo magico"
                   />
                 </div>

@@ -4,7 +4,7 @@ const TresCajasGrid = () => {
         
         // <div className=" container flex gap-10 text-center justify-center  bg-white">
         <section className=""> 
-          <div className=" container rounded-md py-10 grid gap-10  grid-cols-3 text-center bg-[url('./src/img/cubiletes.jpg')] bg-cover   bg-no-repeat bg-center">
+          <div className="msm:hidden container rounded-md py-10 grid gap-10  grid-cols-3 text-center bg-[url('./src/img/cubiletes.jpg')] bg-cover   bg-no-repeat bg-center">
               
                   <div className="ml-4 bg-white rounded-lg py-10  px-2 ">
                   <h2 className="text-black uppercase text-3xl mb-2">Clases de Magia </h2> 
