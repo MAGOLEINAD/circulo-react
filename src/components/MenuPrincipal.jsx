@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Escuela', href: '#', current: false },
-  { name: 'Tienda de magia', href: '#', current: false },
+  { name: 'Tienda de magia', href: 'https://www.TrucosyMagia.com', current: false },
   { name: 'Contacto', href: '#', current: false },
 ]
 
@@ -33,16 +33,18 @@ export default function MenuPrincipal() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-10 w-auto"
-                    src="./src/img/logocircu.avif"
-                    alt="circulo magico"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="./src/img/logocircu.avif"
-                    alt="circulo magico"
-                  />
+                <picture className="block lg:hidden h-10 w-16">
+                        <source srcset="./src/img/logofooter.avif" type="image/avif"/>
+                        <source srcset="./src/img/logofooter.webp" type="image/webp"/>
+                        <img loading="lazy" src="./src/img/logofooter.jpg"  alt="circulomagico"/>
+                    </picture>
+        
+                    <picture  className="hidden lg:block h-auto w-16">
+                        <source srcset="./src/img/logofooter.avif" type="image/avif"/>
+                        <source srcset="./src/img/logofooter.webp" type="image/webp"/>
+                        <img loading="lazy" src="./src/img/logofooter.jpg"  alt="circulomagico"/>
+                    </picture>
+            
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
