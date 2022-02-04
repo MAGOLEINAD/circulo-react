@@ -1,5 +1,4 @@
 
-
 const Servicios = () => {
     return (
         <div className="  container text-center grid lg:grid-cols-3 lg:divide-x-2  ">
@@ -20,10 +19,9 @@ const Servicios = () => {
                 <div  className="order-3  ">
                 <i className="msm:mt-0 fas fa-door-closed mb-5 text-red-800 mlg:mt-8 text-3xl"></i>
                 <h2 className="text-white uppercase text-3xl mb-4">Curso de Magia </h2> 
-                <button className="bg-red-800 uppercase mb-1 rounded text-center mlg:px-24 mxl:px-10 xl:px-24 py-3 font-medium tracking-widest text-white msm:px-20"><a href= 'https://www.aprendermagia.com.ar/cuota/'> Reserva tu Vacante</a></button><br />
+                <a href= 'https://www.aprendermagia.com.ar/cuota/'><button className="bg-red-800 uppercase mb-1 rounded text-center mlg:px-24 mxl:px-10 xl:px-24 py-3 font-medium tracking-widest text-white msm:px-20"> Reserva tu Vacante</button></a><br />
                 <p className="text-gray-300 tracking-wider mb-1 font-medium text-sm divide-y-2  ">Cupos Limitados</p> 
-               
-                <button className=" bg-transparent border px-[7.6rem] border-zinc-600 uppercase rounded text-center py-3 font-medium tracking-wider msm:px-[6.6rem] text-white mlg:px-[7.6rem] mxl:px-[4rem]">Que Aprenderé?</button>
+                <a href= 'https://www.aprendermagia.com.ar/cuota/'> <button className=" bg-transparent border px-[7.6rem] border-zinc-600 uppercase rounded text-center py-3 font-medium tracking-wider msm:px-[6.6rem] text-white mlg:px-[7.6rem] mxl:px-[4rem]">Que Aprenderé?</button></a>
                 </div>
             
         </div>

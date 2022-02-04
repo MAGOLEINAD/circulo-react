@@ -7,6 +7,10 @@ const Google = React.lazy (()=> import ('./components/Google'))
 const Footer = React.lazy (()=> import ('./components/Footer'))
 import Galeria from './components/Galeria'
 import Header2 from './components/Header2';
+import Video from './components/Video';
+
+
+
 
 
 function App() {
@@ -19,6 +23,7 @@ function App() {
     <Servicios />
     <Ilusionismo />
     <TresCajasGrid />
+    <Video />
     <Google />
     <Galeria />
     <Footer />

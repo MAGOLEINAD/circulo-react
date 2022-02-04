@@ -1,7 +1,7 @@
 
 const Ilusionismo = () => {
     return (
-        <div className=" container rounded-md my-14 grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 gap-x-6 justify-items-center imagenback " >
+        <div className=" container rounded-md my-14 msm:my-2 grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 gap-x-6 justify-items-center imagenback " >
             <picture className="sinimagenback">
                  <source srcSet="./src/img/headertop.avif" type="image/avif" />
                  <source srcSet="./src/img/headertop.webp" type="image/webp" />
