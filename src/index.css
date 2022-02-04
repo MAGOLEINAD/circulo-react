@@ -2,11 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+.headercartas {
+    background: url(./src/img/slides/cartas_mobile.avif) center no-repeat, url(./src/img/slides/cartas_mobile.webp) center no-repeat, url(./src/img/slides/cartas_mobile.jpg) center no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+   
+
+}
+
+@media (min-width: 639px) {
+    .headercartas {
+        background-image: url(./src/img/slides/cartas.avif) , url(./src/img/slides/cartas.webp) , url(./src/img/slides/cartas.jpg) ;
+        height: 60vh;
+       
+        
+    }
+}
+
 .imagenback {
     background: url('./src/img/header1.png') white  center right no-repeat;
     background-size: 60% auto; 
     background-position-y: -30px;
-    
 }
 
 .imagenback .sinimagenback{
@@ -20,9 +38,8 @@
         background-position: auto  ;
         
     }
-    
-    
 }
+
 @media screen and (max-width:1023px) { 
     .imagenback{ 
         background-size: 60% auto;
@@ -39,7 +56,7 @@
 }
 }
 
-h4 {
+.ftp {
 text-transform: uppercase;
 font-size: 0.8rem;
 color: #a9a9a9;

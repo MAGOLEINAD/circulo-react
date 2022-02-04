@@ -15,6 +15,7 @@ function classNames(...classes) {
 
 export default function MenuPrincipal() {
   return (
+   
     <Disclosure as="nav" className="bg-black opacity-90 sticky top-0 z-10">
       {({ open }) => (
         <>

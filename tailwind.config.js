@@ -43,6 +43,7 @@ module.exports = {
       backgroundImage: {
         'cubiletes': "url('src/img/cubiletes.jpg')",
         'leinad': "url('./src/img/header1.png')",
+        'header': "url('./src/img/slides/cartas.avif')",
       }
     },
     plugins: [
