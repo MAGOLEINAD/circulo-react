@@ -1,3 +1,4 @@
+import MiModal from "./Modal"
 
 const Servicios = () => {
     return (
@@ -17,11 +18,11 @@ const Servicios = () => {
                 una rama de la magia particular y con un estilo diferente.</p>
                 </div>
                 <div  className="order-3  ">
-                <i className="msm:mt-0 fas fa-door-closed mb-5 text-red-800 mlg:mt-8 text-3xl"></i>
+                <i className="msm:mt-0 fas fa-scroll mb-5 text-red-800 mlg:mt-8 text-3xl"></i>
                 <h2 className="text-white uppercase text-3xl mb-4">Curso de Magia </h2> 
                 <a href= 'https://www.aprendermagia.com.ar/cuota/'><button className="bg-red-800 uppercase mb-1 rounded text-center mlg:px-24 mxl:px-10 xl:px-24 py-3 font-medium tracking-widest text-white msm:px-20"> Reserva tu Vacante</button></a><br />
                 <p className="text-gray-300 tracking-wider mb-1 font-medium text-sm divide-y-2  ">Cupos Limitados</p> 
-                <a href= 'https://www.aprendermagia.com.ar/cuota/'> <button className=" bg-transparent border px-[7.6rem] border-zinc-600 uppercase rounded text-center py-3 font-medium tracking-wider msm:px-[6.6rem] text-white mlg:px-[7.6rem] mxl:px-[4rem]">Que Aprenderé?</button></a>
+                <MiModal/>
                 </div>
             
         </div>

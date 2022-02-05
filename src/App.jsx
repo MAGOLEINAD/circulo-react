@@ -8,6 +8,7 @@ const Footer = React.lazy (()=> import ('./components/Footer'))
 import Galeria from './components/Galeria'
 import Header2 from './components/Header2';
 import Video from './components/Video';
+import Whatsapp from './components/Whatsapp';
 
 
 
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <>
-    <Suspense fallback= {<p><i className="fas fa-spinner flex justify-center container mt-10 text-5xl"></i></p>}> 
+    <Suspense fallback= {<p><i className="fas fa-spinner animate-spin flex justify-center container mt-10 text-5xl"></i></p>}> 
     <MenuPrincipal />
     <Header2 />
     <Servicios />
@@ -27,8 +28,9 @@ function App() {
     <Google />
     <Galeria />
     <Footer />
+    <Whatsapp/>
     </Suspense>
-  
+    
     
    
     </>

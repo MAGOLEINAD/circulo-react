@@ -12,7 +12,9 @@ const Footer = () => {
          
         </div>
         <div className='sm:hidden text-center mx-6 text-zinc-400 '>
-          <p>El Curso está orientado para iniciados y avanzados ya sea como hobby o de manera profesional. No se necesita ningún tipo de conocimiento previo.</p>
+        <i className="fas fa-map-marker-alt mb-3 text-red-800 text-4xl"></i>
+          <p>Estamos en Felipe Vallese 1387, Barrio Caballito, CABA. <br /> Nuestro horario de atención es de 10.30 a 16.30 de Lunes a Viernes.</p>
+       
         </div>
       
         <div className='msm:hidden'>
@@ -43,14 +45,6 @@ const Footer = () => {
     
       </footer>
 
-      
-      {/* <div className='container mt-10 flex justify-end items-center'>
-        
-      <i class="fab fa-expeditedssl mr-3 text-gray-500"></i>
-      <p className='text-sm text-gray-500'>Asegurada con SSL - Todos los Derechos Reservados 2022</p>
-      <br /> <br />
-    
-      </div> */}
        <br /> <br />
 
   </div>;

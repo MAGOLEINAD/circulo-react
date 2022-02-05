@@ -22,7 +22,7 @@ export default function createCarouselSlider(el) {
       el: '.swiper-pagination',
     },
     autoplay: {
-      delay: 3000,
+      delay: 9000,
     },
     on: {
       // eslint-disable-next-line
